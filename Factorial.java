@@ -1,16 +1,13 @@
-package math.special;
-
-public class Factorial
-{
- public int fact(int x)
- {
+class Factorial{
+ public static void main(String args[]){
+ int x=5;
    int res=1;
-   while(x>=1)
-   {
+   while(x>0){
 	res=res*x;
 	x--;
-   }
-	return res;
- }
+	}
+	System.out.println(res);
+	}
 
 }
+
